@@ -1,0 +1,16 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo {
+    color: aqua;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+}
+
+section h1 {
+    color: blueviolet;
+}
