@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+}
+
+
+
+.navbar {
+    background-color: #8b4513; 
+    padding: 1rem 2rem;
+    display: block;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    transition: transform 5s;
+    justify-content: center;
+}
+
+.nav-links a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: 500;
+    transition: transform 0.3s;
+  
+}
+
+.logo {
+    color: #fff;
+    gap: 1.5rem;
+    font-weight: bold;
+    text-align: center;   
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    padding: 4rem 2rem;
+}
+
+.hero-texto {
+    max-width: 500px;
+}
+
+.hero-texto h1 {
+    font-size: 2.5rem;
+    color: #111827;
+    margin-bottom: 1rem;
+}
+
+.hero-texto p {
+    font-size: 1.125rem;
+    color: #6b7280;
+    margin-bottom: 2rem;
+}
+
+.btn-cta {
+    background-color: #8b4513;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn-cta:hover {
+    background-color: #ffd700;
+}
+
+.nav-links a:hover {
+    color:#f3f4f6;
+    transition: transform 0.3s;
+}
+
+.conteudo {
+    padding: 4rem 2rem;
+    background-color: #fff;
+   
+
+}
+
+.conteudo h2 {
+    font-size: 2rem;
+    color: #8b4513;
+    margin-bottom: 2rem;
+}
+
+.cards {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: #ffd700;
+}
+
+
+
+.card  {
+    background-color: #f5f5dc;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 100000px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    margin-bottom: 2rem;
+
+
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    
+}
+
+.card h3 {
+    color:#333 ;
+    margin-bottom: 1rem;
+
+}
+
+.card p {
+    color:#6b7280 ;
+
+}
+
+footer{
+    color:#ffd700;
+}
+
+.rodape {
+    background-color: #eee; 
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    transition: transform 5s;
+}
+
+.nav-link a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: transform 0.3s;
+}
+
+
+.conteudos {
+    padding: 4rem 2rem;
+    background-color: #fff;
+    margin: 10;
+    
+    
+
+}
+
+.conteudos h2 {
+    font-size: 2rem;
+    color: #8b4513;
+    margin-bottom: 2rem;
+}
+
+.fim {
+    color: #333;
+    gap: 1.5rem;
+    font-weight: bold;
+    justify-content: center;   
+}
