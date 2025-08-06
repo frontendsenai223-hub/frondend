@@ -190,62 +190,66 @@ body {
 }
 
 
-.praticos h2{
+.exemplos img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.exemplos h2{
     color: #111827;
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    background-color: #fff;
+    margin-bottom: 0.5rem;
     
 }
 
-.praticos-grid {
+.exemplos-grid {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
 }
 
 
-.pratico {
+.exemplos  {
     padding: 4rem 2rem;
     background-color: #fff;
     text-align: center;
-    max-height: 300px;
-    border-radius: 1rem;
-    background-color: #f3f4f6;
-    text-align: center;
     padding: 2rem;
+}
+
+
+
+
+.exemplos-descricao {
+    color: #6b7280;
+    margin-bottom: 2.5rem;
+    font-size: 1rem;
+}
+
+.exemplo-card {
+    background-color: #f3f4f6;
     border-radius: 1rem;
+    overflow: hidden;
     max-width: 300px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow:  0 4px 8px rgba(0,0,0,0.5);
     transition: transform 0.3s;
-
-
 }
 
-
-.pratico img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
+.exemplo-card:hover {
+    transform: translateY(-5px);
 }
 
-
-
-
-
-.pratico p {
-    color: #4b5563;
-    font-style: italic;
-    margin-bottom: 1rem;
-
-}
-
-.pratico span{
+.exemplo-card h3 {
+    font-size: 1.25rem;
+    margin: 1rem 1rem 0.5rem;
     color: #4f46e5;
-    font-weight: bold;
-    
+}
+
+.exemplo-card p {
+    color: #4b5563;
+    margin:0 1rem 1.5rem;
+    font-size: 0.95rem;
 }
 
 
